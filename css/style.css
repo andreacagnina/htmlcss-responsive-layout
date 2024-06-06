@@ -150,7 +150,7 @@ button {
     color: #0084fd;
 }
 
-.content.text-center>p {
+.content.bg-white.text-center>p {
     font-style: italic;
 }
 
@@ -167,4 +167,14 @@ button {
 .col-33 i {
     font-size: 100px;
     color: #0084fd;
+}
+
+.f-c-violet {
+    color: #9792e4;
+}
+
+.content.bg-violet.text-center img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
 }
