@@ -50,11 +50,22 @@ main {
     width: 20%;
 }
 
-
 .content {
     margin: 10px;
     padding: 15px;
     background-color: red;
     width: 100%;
     border: 1px solid black;
+}
+
+footer {
+    background-color: #333333;
+}
+
+.bg-violet {
+    background-color: #9792e4;
+}
+
+.bg-light_blue {
+    background-color: #b5ddff;
 }
