@@ -14,8 +14,13 @@ header {
     color: #fff;
 }
 
+footer {
+    background-color: #333333;
+}
+
 .container {
     margin: 0 auto;
+    width: 100%;
 }
 
 .row {
@@ -74,9 +79,6 @@ header {
     padding: 0;
 }
 
-footer {
-    background-color: #333333;
-}
 
 .f-c-white {
     color: #fff;
@@ -126,7 +128,7 @@ ul {
     width: 100%;
 }
 
-.col-66 button {
+.button-store {
     color: #fff;
     background-color: #0084fd;
     padding: 10px 60px;
@@ -134,15 +136,7 @@ ul {
     letter-spacing: 2px;
 }
 
-.col-33 button {
-    color: #fff;
-    background-color: #9792e4;
-    padding: 50px 80px;
-    border-radius: 30px;
-    letter-spacing: 2px;
-}
-
-.col-33 .button-violet {
+.button-benefits {
     color: #fff;
     background-color: #9792e4;
     padding: 10px 50px;
@@ -150,14 +144,14 @@ ul {
     letter-spacing: 2px;
 }
 
-.col-20 button {
+.button-about {
     color: #fff;
     background-color: #9792e4;
     padding: 10px 25px;
     border-radius: 30px;
 }
 
-.col-100 button {
+.button-started {
 
     color: #9792e4;
     background-color: #fff;
@@ -193,10 +187,16 @@ button {
     font-style: italic;
 }
 
-.content.bg-white i {
-    padding: 20px;
+
+.little-circle {
+    width: 50px;
+    height: 50px;
     background-color: #9792e4;
     border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -236,4 +236,30 @@ button {
 a,
 a:active {
     color: white;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.circle.test-1 {
+    background-image: url(../img/testimonial1.jpg);
+}
+
+.circle.test-2 {
+    background-image: url(../img/testimonial2.jpg);
+}
+
+.circle.test-3 {
+    background-image: url(../img/testimonial3.jpg);
+}
+
+.p-t-100 {
+    margin-top: 100px;
 }
