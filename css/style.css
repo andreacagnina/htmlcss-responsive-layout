@@ -76,7 +76,7 @@ footer {
     background-color: #333333;
 }
 
-.content.f-c-white {
+.f-c-white {
     color: #fff;
 }
 
@@ -132,6 +132,31 @@ ul {
     letter-spacing: 2px;
 }
 
+.col-33 button {
+    color: #fff;
+    background-color: #9792e4;
+    padding: 10px 60px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+}
+
+.col-20 button {
+    color: #fff;
+    background-color: #9792e4;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+.col-100 button {
+
+    color: #9792e4;
+    background-color: #fff;
+    padding: 20px 100px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
 h3,
 p,
 button {
@@ -160,9 +185,6 @@ button {
     border-radius: 50%;
 }
 
-.col-33 {
-    text-align: center;
-}
 
 .col-33 i {
     font-size: 100px;
@@ -173,8 +195,31 @@ button {
     color: #9792e4;
 }
 
-.content.bg-violet.text-center img {
-    width: 100%;
-    aspect-ratio: 1/1;
+.avatar {
+    max-width: 60%;
     border-radius: 50%;
+}
+
+.f-size-50 {
+    font-size: 50px;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.pos-absolute {
+    position: absolute;
+    right: 45%;
+    top: 20px;
+}
+
+
+.f-c-yellow {
+    color: #fdc15f;
+}
+
+a,
+a:active {
+    color: white;
 }
