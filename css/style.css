@@ -18,7 +18,8 @@ footer {
     background-color: #333333;
 }
 
-.container {
+.container,
+.container-header {
     margin: 0 auto;
     width: 100%;
 }
@@ -104,8 +105,8 @@ ul {
     padding: 5px 10px;
 }
 
-.width-100 {
-    width: 100%;
+.width-60 {
+    max-width: 60%;
 }
 
 .button-store {
@@ -252,6 +253,7 @@ a:active {
     margin-top: 100px;
 }
 
+
 @media screen and (min-width: 481px) {
     .container {
         margin: 0 auto;
@@ -288,7 +290,34 @@ a:active {
         float: left;
     }
 
+}
+
+@media screen and (min-width: 769px) {
+
+    .container,
+    .container-header {
+        max-width: 1200px;
+    }
+
+    .display-none {
+        display: block;
+    }
+
+    .display-block {
+        display: none;
+    }
+
     .content {
-        padding: 20px;
+        margin: 5px 10px;
+        padding: 10px;
+    }
+
+    .col-66-2 {
+        width: calc(100%/2);
+        max-height: 250px
+    }
+
+    .max-height-350 {
+        max-height: 350px;
     }
 }
