@@ -354,12 +354,16 @@ a:active {
         margin: 0 auto;
     }
 
-    .m-0-auto {
+    .img-center {
         margin: 0 auto;
     }
 
     .scaled {
         transform: scale(0.6);
+    }
+
+    .width-100 {
+        width: 60%;
     }
 
 }
