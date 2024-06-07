@@ -263,6 +263,8 @@ a:active {
 }
 
 
+
+
 @media screen and (min-width: 481px) {
     .container {
         margin: 0 auto;
@@ -307,6 +309,7 @@ a:active {
     .circle.m-0.img-center {
         margin: 0 auto;
     }
+
 
 }
 
@@ -365,21 +368,29 @@ a:active {
         max-width: 266px
     }
 
-    /* BONUS */
-    .fixed {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 1;
+    .img-pos-absolute {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
     }
-
-    .m-t-100 {
-        margin-top: 100px;
-    }
-
 
 }
+
+
+
+/* BONUS */
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.m-t-100 {
+    margin-top: 100px;
+}
+
 
 /* BONUS */
 
