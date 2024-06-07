@@ -29,8 +29,16 @@ footer {
     flex-wrap: wrap;
 }
 
+.flex {
+    display: flex;
+}
+
 .s-btw {
     justify-content: space-between;
+}
+
+.j-center {
+    justify-content: center;
 }
 
 .align-center {
@@ -38,11 +46,11 @@ footer {
 }
 
 .col-100,
-.col-70,
+.col-60,
 .col-66,
 .col-50,
 .col-33,
-.col-30 {
+.col-40 {
     width: 100%;
 }
 
@@ -109,6 +117,11 @@ ul {
     max-width: 60%;
 }
 
+.width-100 {
+    max-width: 100%;
+}
+
+
 .button-store {
     color: #fff;
     background-color: #0084fd;
@@ -160,6 +173,7 @@ button {
     padding: 25px 0;
 }
 
+
 .content.bg-light_blue h3 {
     color: #0084fd;
 }
@@ -205,7 +219,7 @@ button {
 
 .pos-absolute {
     position: absolute;
-    right: 2px;
+    right: 0;
     top: 0;
 }
 
@@ -220,8 +234,8 @@ a:active {
 }
 
 .circle {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background-size: cover;
     background-position: center;
@@ -264,12 +278,16 @@ a:active {
         width: 100%;
     }
 
-    .col-70 {
-        width: 70%;
+    .col-60 {
+        width: 60%;
     }
 
     .col-66 {
         width: calc(100%/3*2);
+    }
+
+    .col-50 {
+        width: 50%;
     }
 
     .col-33 {
@@ -280,8 +298,8 @@ a:active {
         width: calc(100%/2);
     }
 
-    .col-30 {
-        width: 30%;
+    .col-40 {
+        width: 40%;
     }
 
     .circle.test-1,
@@ -297,6 +315,12 @@ a:active {
     .container,
     .container-header {
         max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .container-900 {
+        max-width: 900px;
+        margin: 0 auto;
     }
 
     .display-none {
@@ -309,7 +333,7 @@ a:active {
 
     .content {
         margin: 5px 10px;
-        padding: 10px;
+        /* padding: 10px; */
     }
 
     .col-66-2 {
@@ -320,4 +344,22 @@ a:active {
     .max-height-350 {
         max-height: 350px;
     }
+
+    .max-h-160 {
+        max-height: 160px;
+    }
+
+    .max-500 {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .m-0-auto {
+        margin: 0 auto;
+    }
+
+    .scaled {
+        transform: scale(0.6);
+    }
+
 }
