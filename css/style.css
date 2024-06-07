@@ -204,11 +204,6 @@ button {
     color: #9792e4;
 }
 
-/* .avatar {
-    max-width: 60%;
-    border-radius: 50%;
-} */
-
 .f-size-50 {
     font-size: 50px;
 }
@@ -271,7 +266,11 @@ a:active {
 @media screen and (min-width: 481px) {
     .container {
         margin: 0 auto;
-        max-width: 768px;
+        width: 100%;
+    }
+
+    .content {
+        margin: 5px 10px;
     }
 
     .col-100 {
@@ -286,9 +285,6 @@ a:active {
         width: calc(100%/3*2);
     }
 
-    .col-50 {
-        width: 50%;
-    }
 
     .col-33 {
         width: calc(100%/3);
@@ -306,6 +302,10 @@ a:active {
     .circle.test-2,
     .circle.test-3 {
         float: left;
+    }
+
+    .circle.m-0.img-center {
+        margin: 0 auto;
     }
 
 }
@@ -333,7 +333,10 @@ a:active {
 
     .content {
         margin: 5px 10px;
-        /* padding: 10px; */
+    }
+
+    .col-50 {
+        width: 50%;
     }
 
     .col-66-2 {
@@ -351,10 +354,6 @@ a:active {
 
     .max-500 {
         max-width: 500px;
-        margin: 0 auto;
-    }
-
-    .img-center {
         margin: 0 auto;
     }
 
